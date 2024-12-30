@@ -1,0 +1,74 @@
+.modal {
+  font-size: 12px;
+  color: rgb(233, 233, 233);
+}
+.modal > .header {
+  width: 100%;
+  border-bottom: 1px solid rgb(233, 233, 233);
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+  /* color: rgb(233, 233, 233); */
+}
+.modal > .content {
+  width: 100%;
+  padding: 10px 5px;
+}
+.modal > .actions {
+  width: 100%;
+  padding: 10px 5px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.modal > .actions button {
+  font-size: 1rem;
+  padding: 0.3rem 1rem;
+  margin: 0 0.5rem;
+  border: none;
+  outline: none;
+  box-shadow: 0.05rem 0.05rem 0.05rem rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+  color: #00000096;
+}
+.modal > .actions button:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.342);
+  color: rgba(255, 255, 255, 0.588);
+}
+.modal > .close {
+  cursor: pointer;
+  position: absolute;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: rgb(253, 253, 253);
+  border-radius: 50%;
+  border: 1px solid #cfcece;
+  outline: none;
+  color: #00000096;
+  transition: all 0.3s ease-in-out;
+}
+.modal > .close:hover {
+  background: rgba(0, 0, 0, 0.582);
+  color: rgba(255, 255, 255, 0.588);
+}
+.mail {
+  color: #fff;
+}
+.span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 0;
+  background: rgba(0, 0, 0, 0.582);
+  color: rgba(255, 255, 255, 0.588);
+  text-align: center;
+}
+.content p {
+  font-size: 10px;
+}
