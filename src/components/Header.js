@@ -40,6 +40,7 @@ const NavbarLink = styled(Link)`
   margin: 1rem;
   padding-bottom: 0.5rem;
   transition: all 0.3s ease-in-out;
+  text-shadow: 0.05rem 0.05rem 0.05rem rgba(0, 0, 0, 0.21);
 
   :hover {
     color: #ccc;
