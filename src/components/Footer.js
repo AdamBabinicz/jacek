@@ -266,9 +266,9 @@ function Footer(proops) {
         {/* <Marginer direction="vertical" margin="5em" /> */}
         <AccessibilityContainer>
           <PrivacyContainer>
-            <LinkExt to="/mail">
-              {/* <FontAwesomeIcon icon={faEnvelope} /> */}
-            </LinkExt>
+            {/* <LinkExt to="/mail">
+              <FontAwesomeIcon icon={faEnvelope} />
+            </LinkExt> */}
 
             {/* <LinkExt> */}
             {/* <FontAwesomeIcon
