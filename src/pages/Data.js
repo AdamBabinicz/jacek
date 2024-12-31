@@ -11,14 +11,14 @@ export const Data = {
       desc: "Piękne widoki górskie i nie tylko.",
     },
   ],
-  services: [
+  ania: [
     {
       image: ServiceImage1,
       title: "Ania",
       desc: "Smartfon zawsze pod ręką.",
     },
   ],
-  about: [
+  aneta: [
     {
       image: AboutImage1,
       title: "Aneta",

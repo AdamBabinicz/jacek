@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Switch, Route, Redirect, useLocation } from "react-router-dom";
 import Home from "./pages/Home";
-import About from "./pages/About";
-import Services from "./pages/Services";
+import Aneta from "./pages/Aneta";
+import Ania from "./pages/Ania";
 import Marysia from "./pages/Marysia";
 import Slider from "./components/Slider";
 import Header from "./components/Header";
@@ -31,9 +31,8 @@ const App = () => {
         <AnimatePresence exitBeforeEnter>
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route exact path="/about" component={About} />
-            <Route exact path="/services" component={Services} />
-            <Route path="/ania" element={<Services />} />
+            <Route exact path="/aneta" component={Aneta} />
+            <Route exact path="/ania" component={Ania} />
             <Route exact path="/marysia" component={Marysia} />
             <Route path="/slider" component={Slider} />
             <Route path="/footer" component={Footer} />
