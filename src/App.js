@@ -3,6 +3,7 @@ import { Switch, Route, Redirect, useLocation } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Services from "./pages/Services";
+import Marysia from "./pages/Marysia";
 import Slider from "./components/Slider";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -32,6 +33,7 @@ const App = () => {
             <Route exact path="/" component={Home} />
             <Route exact path="/about" component={About} />
             <Route exact path="/services" component={Services} />
+            <Route exact path="/marysia" component={Marysia} />
             <Route path="/slider" component={Slider} />
             <Route path="/footer" component={Footer} />
             <Redirect to="/"></Redirect>

@@ -1,9 +1,7 @@
-// Data.js
-import HomeImage1 from "../images/4.avif";
-// import HomeImage2 from "../images/home2.avif";
-import ServiceImage1 from "../images/6.jpg";
-// import ServiceImage2 from "../images/service2.avif";
-import AboutImage1 from "../images/1.avif";
+import HomeImage1 from "images/jacek/5.avif";
+import ServiceImage1 from "images/ania/1.avif";
+import AboutImage1 from "images/aneta/1.avif";
+import MarysiaImage1 from "images/marys/1.avif";
 
 export const Data = {
   home: [
@@ -12,11 +10,6 @@ export const Data = {
       title: "Jacek",
       desc: "Piękne widoki górskie i nie tylko.",
     },
-    //  {
-    //    image: HomeImage2,
-    //    title: "Nasza Oferta",
-    //    desc: "Zobacz naszą szeroką ofertę wycieczek i atrakcji.",
-    //  },
   ],
   services: [
     {
@@ -24,11 +17,6 @@ export const Data = {
       title: "Ania",
       desc: "Smartfon zawsze pod ręką.",
     },
-    //  {
-    //    image: ServiceImage2,
-    //    title: "Mycie tapicerki",
-    //    desc: "Dokładne czyszczenie tapicerki meblowej i samochodowej.",
-    //  },
   ],
   about: [
     {
@@ -37,5 +25,11 @@ export const Data = {
       desc: "Warto zamoczyć nogi w Morskim Oku.",
     },
   ],
-  // Możesz dodać inne sekcje, np. 'contact', 'portfolio', itp.
+  marysia: [
+    {
+      image: MarysiaImage1,
+      title: "Marysia",
+      desc: "Warto zamoczyć nogi w Morskim Oku.",
+    },
+  ],
 };

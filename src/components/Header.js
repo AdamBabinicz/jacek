@@ -58,6 +58,7 @@ const Header = () => {
           <NavbarLink to="/">Jacek</NavbarLink>
           <NavbarLink to="/about">Aneta</NavbarLink>
           <NavbarLink to="/services">Ania</NavbarLink>
+          <NavbarLink to="/marysia">Marysia</NavbarLink>
         </NavItems>
       </Navbar>
     </>
