@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/j.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Szczęście wśród inteligentnych osób to najrzadsza rzecz, jaką znam"
+    />
+    <meta name="Dom rodzinny." content="index, follow" />
+    <meta name="handheldFriendly" content="true" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="https://twitter.com" />
+    <meta
+      name="twitter:title"
+      content="Portal internetowy poświęcony osobom Anety, Jacka i Ani."
+    />
+    <meta name="twitter:description" content="Domy rodzinne." />
+    <meta name="twitter:image" content="https://jacek.netlify.app/1.avif" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Rodzina to nie tylko więzy krwi, to ludzie, którzy dają nam poczucie bezpieczeństwa, miłości i przynależności."
+    />
+    <meta property="og:url" content="https://jacek.netlify.app" />
+    <meta
+      property="og:description"
+      content="Żyjemy nie tylko tu i teraz, ale również w pamięci innych"
+    />
+    <meta property="og:image" content="https://jacek.netlify.app/2.avif" />
+    <link rel="canonical" href="https://jacek.netlify.app" />
+
+    <title>Strona Anety, Jacka, Ani i Marysi</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "Jacek",
+        "url": "https://jacek.netlify.app",
+        "address": "Radom",
+        "sameAs": [
+          "https://www.facebook.com/jacek.nagrodzki",
+          "https://twitter.com",
+          "https://github.com"
+        ]
+      }
+    </script>
+    <script src="https://skrypt-cookies.pl/id/bc97833d298d0954.js"></script>
+  </body>
+</html>
