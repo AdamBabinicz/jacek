@@ -5,10 +5,10 @@ status = 200
 
 [[redirects]]
 from = "/ania"
-to = "/services.js"
+to = "/services"
 status = 200
 
 [[redirects]]
 from = "/aneta"
-to = "/about.js"
+to = "/about"
 status = 200
