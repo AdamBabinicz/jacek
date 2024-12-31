@@ -51,7 +51,7 @@ const Header = () => {
   return (
     <>
       <Navbar>
-        <Logo to="/">
+        <Logo to="/" aria-label="Strona główna">
           <ImImage />
         </Logo>
         <NavItems>

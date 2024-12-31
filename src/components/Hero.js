@@ -49,9 +49,6 @@ const Hero = ({ image, title, desc }) => {
       <Container>
         <h1>{title}</h1>
         <p>{desc}</p>
-        {/* <NavLink to="/slider">
-          <button>Zobacz więcej</button>
-        </NavLink> */}
         <NavLink to={`/slider?title=${title}`}>
           <button>Zobacz więcej</button>
         </NavLink>
