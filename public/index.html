@@ -50,14 +50,15 @@
     <link rel="next" href="https://jacek.netlify.app/ania" />
     <link rel="next" href="https://jacek.netlify.app/marysia" />
     <link
-      rel="stylesheet"
-      href="/static/css/main.06fbd7d0.css"
-      media="print"
-      onload="this.media='all'"
+      rel="preload"
+      href="%PUBLIC_URL%/node_modules/bootstrap/dist/css/bootstrap.min.css"
+      as="style"
     />
-    <noscript>
-      <link rel="stylesheet" href="/static/css/main.06fbd7d0.css" />
-    </noscript>
+    <link
+      rel="preload"
+      href="%PUBLIC_URL%/node_modules/bootstrap/dist/js/bootstrap.bundle.js"
+      as="script"
+    />
     <!-- Title of the page -->
     <title>Rodzina Anety, Jacka, Ani i Marysi – Historia i pasje</title>
   </head>
@@ -131,5 +132,9 @@
 
       gtag("config", "G-Q732K89798");
     </script>
+    <script
+      src="%PUBLIC_URL%/node_modules/bootstrap/dist/js/bootstrap.bundle.js"
+      async
+    ></script>
   </body>
 </html>
