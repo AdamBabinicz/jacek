@@ -22,14 +22,14 @@ export const Data = {
     {
       image: AboutImage1,
       title: "Aneta",
-      desc: "Warto zamoczyć nogi w Morskim Oku.",
+      desc: "Rok pełen przygód.",
     },
   ],
   marysia: [
     {
       image: MarysiaImage1,
       title: "Marysia",
-      desc: "Warto zamoczyć nogi w Morskim Oku.",
+      desc: "Moje podróże z rodziną.",
     },
   ],
 };
