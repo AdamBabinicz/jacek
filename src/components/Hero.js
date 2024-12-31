@@ -3,8 +3,8 @@ import styled from "styled-components";
 import { NavLink, Switch, Route } from "react-router-dom";
 
 const Section = styled.section`
-  background: url(${({ image }) => image && image}) 60% 33% / cover no-repeat
-    fixed;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)),
+    url(${({ image }) => image && image}) 60% 33% / cover no-repeat fixed;
   height: 100vh;
   display: flex;
   justify-content: flex-end;
