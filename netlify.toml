@@ -5,7 +5,7 @@ status = 200
 
 [[redirects]]
 from = "/ania"
-to = "/services"
+to = "/index.html"
 status = 200
 
 [[redirects]]
