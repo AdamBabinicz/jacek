@@ -25,7 +25,7 @@ const Container = styled.div`
     margin-bottom: 0.5rem;
   }
 
-  p {
+  h2 {
     font-size: clamp(1rem, 6vw, 2.5rem);
     margin-bottom: 1rem;
   }
@@ -48,7 +48,7 @@ const Hero = ({ image, title, desc }) => {
     <Section image={image}>
       <Container>
         <h1>{title}</h1>
-        <p>{desc}</p>
+        <h2>{desc}</h2>
         <NavLink to={`/slider?title=${title}`}>
           <button>Zobacz więcej</button>
         </NavLink>

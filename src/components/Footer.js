@@ -233,24 +233,6 @@ function Footer(proops) {
   const scrollToAbout = () => {
     scroller.scrollTo("about", { smooth: true, duration: 1500 });
   };
-
-  // const outside = useRef();
-  // const [isOpen, setIsOpen] = useState(false);
-  // const handleClick = (e) => {
-  //   if (outside.current.contains(e.target)) {
-  //     return;
-  //   }
-  //   setIsOpen(false);
-  // };
-
-  // useEffect(() => {
-  //   const getClick = document.addEventListener("click", handleClick);
-
-  //   return () => {
-  //     getClick();
-  //   };
-  // }, []);
-
   return (
     <>
       <FooterContainer name="footer">
@@ -262,7 +244,7 @@ function Footer(proops) {
                 to="//www.facebook.com/jacek.nagrodzki"
                 rel="noopener noreferrer"
                 target="_blank"
-                aria-label="Facebook"
+                aria-label="Odwiedź mnie na Facebooku"
               >
                 <FontAwesomeIcon icon={faFacebook} />
               </LinkExt>
@@ -272,7 +254,7 @@ function Footer(proops) {
                 to="//twitter.com"
                 rel="noopener noreferrer"
                 target="_blank"
-                aria-label="Twitter"
+                aria-label="Zobacz na Twitter"
               >
                 <FontAwesomeIcon icon={faTwitter} />
               </LinkExt>
@@ -282,7 +264,7 @@ function Footer(proops) {
                 to="//google.com"
                 rel="noopener noreferrer"
                 target="_blank"
-                aria-label="Google"
+                aria-label="Przejdź do Google"
               >
                 <FontAwesomeIcon icon={faGoogle} />
               </LinkExt>
@@ -293,6 +275,7 @@ function Footer(proops) {
           to="//a-g.netlify.app"
           rel="noopener noreferrer"
           target="_blank"
+          aria-label="Wejdź na stronę autora"
         >
           <RightsReserved>ag 2020 - {new Date().getFullYear()}.</RightsReserved>
         </LinkExt>
