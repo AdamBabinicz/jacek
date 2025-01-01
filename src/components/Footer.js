@@ -244,7 +244,7 @@ function Footer(proops) {
                 href="https://www.facebook.com/jacek.nagrodzki"
                 rel="noopener noreferrer"
                 target="_blank"
-                aria-label="Odwiedź mnie na Facebooku"
+                aria-label="Odwiedź mnie na Facebooku (otworzy się w nowym oknie)"
               >
                 <FontAwesomeIcon icon={faFacebook} />
               </LinkExt>
@@ -254,7 +254,7 @@ function Footer(proops) {
                 href="https://twitter.com"
                 rel="noopener noreferrer"
                 target="_blank"
-                aria-label="Zobacz na Twitter"
+                aria-label="Zobacz na Twitter (otworzy się w nowym oknie)"
               >
                 <FontAwesomeIcon icon={faTwitter} />
               </LinkExt>
@@ -264,7 +264,7 @@ function Footer(proops) {
                 href="https://google.com"
                 rel="noopener noreferrer"
                 target="_blank"
-                aria-label="Przejdź do Google"
+                aria-label="Przejdź do Google (otworzy się w nowym oknie)"
               >
                 <FontAwesomeIcon icon={faGoogle} />
               </LinkExt>
