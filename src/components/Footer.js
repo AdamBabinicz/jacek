@@ -99,7 +99,7 @@ const SocialIcon = styled.div`
     color: ${theme.third};
   }
 `;
-const LinkExt = styled(Link)`
+const LinkExt = styled.a`
   color: ${theme.primary};
   transition: all 0.3s ease-in-out;
   cursor: pointer;
@@ -241,7 +241,7 @@ function Footer(proops) {
           <SocialContainer>
             <SocialIcon>
               <LinkExt
-                to="//www.facebook.com/jacek.nagrodzki"
+                href="https://www.facebook.com/jacek.nagrodzki"
                 rel="noopener noreferrer"
                 target="_blank"
                 aria-label="Odwiedź mnie na Facebooku"
@@ -251,7 +251,7 @@ function Footer(proops) {
             </SocialIcon>
             <SocialIcon>
               <LinkExt
-                to="//twitter.com"
+                href="https://twitter.com"
                 rel="noopener noreferrer"
                 target="_blank"
                 aria-label="Zobacz na Twitter"
@@ -261,7 +261,7 @@ function Footer(proops) {
             </SocialIcon>
             <SocialIcon>
               <LinkExt
-                to="//google.com"
+                href="https://google.com"
                 rel="noopener noreferrer"
                 target="_blank"
                 aria-label="Przejdź do Google"
@@ -272,7 +272,7 @@ function Footer(proops) {
           </SocialContainer>
         </AccessibilityContainer>
         <LinkExt
-          to="//a-g.netlify.app"
+          href="https://a-g.netlify.app"
           rel="noopener noreferrer"
           target="_blank"
           aria-label="Wejdź na stronę autora"
