@@ -9,8 +9,10 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import { AnimatePresence } from "framer-motion";
 import { createGlobalStyle, ThemeProvider } from "styled-components";
-import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
+// import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+// import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
 
 const GlobalStyle = createGlobalStyle`
 body{
