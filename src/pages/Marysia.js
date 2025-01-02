@@ -26,12 +26,10 @@ const Marysia = () => {
   return (
     <motion.div initial="out" animate="in" exit="out" variants={animationTwo}>
       {Data.marysia.map((item, index) => (
-        <Hero
-          key={index}
-          image={item.image}
-          title={item.title}
-          desc={item.desc}
-        />
+        <div key={index}>
+          <h1>{item.title}</h1>
+          <Hero image={item.image} title={item.title} desc={item.desc} />
+        </div>
       ))}
     </motion.div>
   );
