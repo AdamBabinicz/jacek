@@ -77,18 +77,21 @@
   transition: all 0.3s ease-in-out;
   cursor: pointer;
   font-size: 1.4rem;
+}
 
-  &:not(:last-of-type) {
-    margin-right: 11px;
+.link:not(:last-of-type) {
+  margin-right: 11px;
+}
 
-    @media screen and (max-width: 480px) {
-      margin-right: 9px;
-    }
+@media screen and (max-width: 480px) {
+  .link:not(:last-of-type) {
+    margin-right: 9px;
   }
-  @media screen and (max-width: 480px) {
+  .link {
     font-size: 1.5rem;
   }
-  &:hover {
-    color: rgba(255, 255, 255, 0.32);
-  }
+}
+
+.link:hover {
+  color: rgba(255, 255, 255, 0.32);
 }
