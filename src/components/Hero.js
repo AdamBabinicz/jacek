@@ -47,7 +47,7 @@ const Hero = ({ image, title, desc }) => {
   return (
     <Section image={image}>
       <Container>
-        <h1>{title}</h1>
+        {/* <h1>{title}</h1> */}
         <h2>{desc}</h2>
         <NavLink to={`/slider?title=${title}`} className="button">
           Zobacz więcej
