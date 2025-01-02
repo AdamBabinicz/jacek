@@ -275,7 +275,7 @@ function Footer(proops) {
           href="https://a-g.netlify.app"
           rel="noopener noreferrer"
           target="_blank"
-          aria-label="Wejdź na stronę autora (otworzy się w nowym oknie)"
+          aria-label="Wejdź na stronę autora (otworzy się w nowym oknie) - ag 2020 - "
         >
           <RightsReserved>ag 2020 - {new Date().getFullYear()}.</RightsReserved>
         </LinkExt>
