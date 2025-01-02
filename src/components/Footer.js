@@ -99,26 +99,26 @@ const SocialIcon = styled.div`
     color: ${theme.third};
   }
 `;
-const LinkExt = styled.a`
-  color: ${theme.primary};
-  transition: all 0.3s ease-in-out;
-  cursor: pointer;
-  font-size: 1.4rem;
+// const LinkExt = styled.a`
+//   color: ${theme.primary};
+//   transition: all 0.3s ease-in-out;
+//   cursor: pointer;
+//   font-size: 1.4rem;
 
-  &:not(:last-of-type) {
-    margin-right: 11px;
+//   &:not(:last-of-type) {
+//     margin-right: 11px;
 
-    @media screen and (max-width: 480px) {
-      margin-right: 9px;
-    }
-  }
-  @media screen and (max-width: 480px) {
-    font-size: 1.5rem;
-  }
-  &:hover {
-    color: ${theme.third};
-  }
-`;
+//     @media screen and (max-width: 480px) {
+//       margin-right: 9px;
+//     }
+//   }
+//   @media screen and (max-width: 480px) {
+//     font-size: 1.5rem;
+//   }
+//   &:hover {
+//     color: ${theme.third};
+//   }
+// `;
 const RightsReserved = styled.div`
   position: absolute;
   top: 50%;
@@ -240,45 +240,49 @@ function Footer(proops) {
           <PrivacyContainer></PrivacyContainer>
           <SocialContainer>
             <SocialIcon>
-              <LinkExt
+              <a
                 href="https://www.facebook.com/jacek.nagrodzki"
                 rel="noopener noreferrer"
                 target="_blank"
                 aria-label="Odwiedź mnie na Facebooku (otworzy się w nowym oknie)"
+                className="link"
               >
                 <FontAwesomeIcon icon={faFacebook} />
-              </LinkExt>
+              </a>
             </SocialIcon>
             <SocialIcon>
-              <LinkExt
+              <a
                 href="https://twitter.com"
                 rel="noopener noreferrer"
                 target="_blank"
                 aria-label="Zobacz na Twitter (otworzy się w nowym oknie)"
+                className="link"
               >
                 <FontAwesomeIcon icon={faTwitter} />
-              </LinkExt>
+              </a>
             </SocialIcon>
             <SocialIcon>
-              <LinkExt
+              <a
                 href="https://google.com"
                 rel="noopener noreferrer"
                 target="_blank"
                 aria-label="Przejdź do Google (otworzy się w nowym oknie)"
+                className="link"
               >
                 <FontAwesomeIcon icon={faGoogle} />
-              </LinkExt>
+              </a>
             </SocialIcon>
           </SocialContainer>
         </AccessibilityContainer>
-        <LinkExt
+        <a
           href="https://a-g.netlify.app"
           rel="noopener noreferrer"
           target="_blank"
           aria-label="Wejdź na stronę autora (otworzy się w nowym oknie) - ag 2020 - "
+          className="link"
         >
           <RightsReserved>ag 2020 - {new Date().getFullYear()}.</RightsReserved>
-        </LinkExt>
+        </a>
       </FooterContainer>
     </>
   );

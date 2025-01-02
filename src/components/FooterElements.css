@@ -72,3 +72,23 @@
 .content p {
   font-size: 10px;
 }
+.link {
+  color: rgba(255, 255, 255, 0.588);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  font-size: 1.4rem;
+
+  &:not(:last-of-type) {
+    margin-right: 11px;
+
+    @media screen and (max-width: 480px) {
+      margin-right: 9px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    font-size: 1.5rem;
+  }
+  &:hover {
+    color: rgba(255, 255, 255, 0.32);
+  }
+}
